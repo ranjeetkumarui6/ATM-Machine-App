@@ -26,6 +26,9 @@ const Atmpin = (props) => {
     if (!numregex.test(props.atmpin1) || props.atmpin1 === "") {
       alert("Please Enter Your Valid ATM Pin");
     }
+    if(filterdata[0].cardpin!==props.atmpin1){
+      alert("Please Check Your Pin")
+    }
     if(filterdata[0].cardpin===props.atmpin1){
       props.setatmpin1("")
       props.body(`/atmcardbody/${getdata2.getdata2}`)

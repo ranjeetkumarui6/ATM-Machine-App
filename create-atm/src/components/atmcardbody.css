@@ -214,10 +214,14 @@ width: 100%;
     text-align: center;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (min-width:401px) and (max-width:500px) {
 
 .atm-pic-container{
+
     width: 300px;
+}
+.check-balance{
+    margin-top: 2rem;
 }
 .atm-pic-container>.atm-pic{
     width: 300px;

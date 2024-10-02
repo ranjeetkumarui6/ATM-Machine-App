@@ -29,7 +29,6 @@ const ResetPinMobile = (props) => {
     })
 
     let lsmobile=filterdata[0].cardphone;
-    alert(lsmobile+" "+mobile)
     if(!numregex.test(mobile) || mobile === ""){
      alert("Please Enter Your Valid Mobile Number")
     }else{

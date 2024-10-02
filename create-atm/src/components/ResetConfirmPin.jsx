@@ -22,7 +22,6 @@ const ResetConfirmPin = (props) => {
 
   const handlenewpin=()=>{
       let copylsdata=[...lsdata];
-      console.log(lsdata)
 
       if(!numregex.test(newpin) || newpin === "" && !numregex.test(confirmpin) || confirmpin === ""){
           alert("Please Enter Valid New Pin")
@@ -44,7 +43,6 @@ const ResetConfirmPin = (props) => {
 
           localStorage.setItem("atmcardbodydata",JSON.stringify(copylsdata))
           setlsdata(copylsdata)
-          console.log(copylsdata)
           body("/pincreate")
          }
   }

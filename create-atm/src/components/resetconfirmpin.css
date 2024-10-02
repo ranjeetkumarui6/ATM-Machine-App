@@ -1,5 +1,5 @@
 .reset-update-pin-container{
-    padding-top: 13%;
+    padding-top: 150px;
     width: 35%;
     margin: 0 auto;
 
@@ -41,20 +41,20 @@
 @media screen and (min-width:790px) and (max-width:1125px) {
     .reset-update-pin-container{
         width: 50%;
-    padding-top: 20%;
+    padding-top: 100px;
     }
    
 }
 @media screen and (min-width:577px) and (max-width:789px) {
     .reset-update-pin-container{
         width: 70%;
-        padding-top: 26%;
+        padding-top: 120px;
     
     }
 }
 @media screen and (max-width:576px) {
     .reset-update-pin-container{
-        padding-top: 32%;
+        padding-top: 120px;
         width: 80%;
         margin: 0 auto;
     
