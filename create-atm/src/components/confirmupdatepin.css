@@ -1,0 +1,63 @@
+.confirm-update-pin-container{
+    padding-top: 8%;
+    width: 35%;
+    margin: 0 auto;
+
+}
+
+.confirm-update-pin-heading{
+    color: red;
+    font-size: 40px;
+    font-weight: 800;
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: 2px underline double;
+}
+.confirm-password-container{
+    padding-top: 8%;
+}
+.confirm-password-container>label{
+    color: gold;
+    font-size: large;
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+.confirm-password-container>.confirm-update-password{
+    width: 100%;
+    background-color: white;
+    border-radius: 0%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    font-size: xx-large;
+}
+.confirm-password-pin-button{
+    padding-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+@media screen and (min-width:577px) and (max-width:1076px) {
+    .confirm-update-pin-container{
+        padding-top: 8%;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:576px) {
+    .confirm-update-pin-container{
+        padding-top: 15%;
+        width: 80%;
+        margin: 0 auto;
+    
+    }
+    .confirm-update-pin-heading{
+        color: red;
+        font-size: 30px;
+        font-weight: 800;
+        width: 100%;
+        margin: 0 auto;
+        text-decoration: 2px underline double;
+    }
+}

@@ -1,0 +1,174 @@
+.pin-container{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: brown;
+    font-size: 35px;
+    letter-spacing: 0.5rem;
+    font-weight: 800;
+}
+#root{
+    background-color: rgb(29 29 255);
+
+    height: 100vh;
+    box-sizing: border-box;
+}
+.atmpincolumn{
+    padding-top: 0%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.atmpincontent-body>.atmpininput{
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    height: 6rem;
+    font-size: 30px;
+    box-shadow: 0 0 12px black;
+    border: none;
+
+}
+.atmpincontent-body>.atmpininput:hover{
+    border: none;
+    outline: none;
+}
+.atmpincontent-body>.atmpinspandata>.atmpindata1{
+    opacity: 1;
+        width: 100%;
+        margin:0 auto;
+        font-size: large;
+        height: 20%;
+    color: red;
+
+}
+.atmpinspandata{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 1.5rem;
+}
+.atmpincontent-body>.atmpinspandata>.atmpindata2{
+    opacity: 0;
+
+    width: 100%;
+    margin:0 auto;
+    font-size: large;
+    height: 20%;
+}
+input[type="password"]{
+    text-align: center;
+}
+.atmpincontent-body>.atmpininput::placeholder{
+    font:xx-large;
+    letter-spacing:0.5rem;
+    font-weight: 500;
+    text-align: center;
+} 
+
+@media screen  and   (min-width:577px ) and (max-width:996px ){
+    .atmpincolumn{
+        padding-top: 1%;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .atmpincontent-body>.atmpininput::placeholder{
+        font-size:x-large;
+        letter-spacing:0.5rem;
+        font-weight: 500;
+        text-align: center;
+    } 
+.atmpincontent-body>.atmpininput{
+    height: 4rem;
+}
+.pin-container{
+    padding-top: 12%;
+}
+    
+}
+
+.atmpinbuttons{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin:  0 auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.reset-pin{
+    width: 15%;
+    margin: 0 auto;
+    margin-top: 1%;
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+}
+@media screen and (max-width:576px) {
+    .pin-container{
+        width: 50%;
+        font-size: small;
+    }
+    .reset-pin{
+        width: 32%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 3%;
+        font-size: small;
+    }
+}
+@media screen and (min-width:576px) and (max-width:690px) {
+    .pin-container{
+        width: 70%;
+        font-size: x-large;
+        margin: 0 auto;
+    }
+    .reset-pin{
+        width: 30%;
+        margin: 0 auto;
+        padding-top: 3%;
+        font-size: large;
+    }
+}
+@media screen and (min-width:690px) and (max-width:1210px) {
+    .pin-container{
+        width: 70%;
+        font-size: x-large;
+        margin: 0 auto;
+    }
+    .reset-pin{
+        width: 30%;
+        margin: 0 auto;
+        padding-top: 3%;
+        padding-left: 7%;
+        font-size: large;
+    }
+}
+
+@media screen and (max-width:576px){
+    .atmpincontent-body>.atmpininput{
+        width: 80%;
+        background-color: white;
+        padding-top: 0%;
+        border-radius: 10px;
+
+        height: 2.5rem;
+        font-size: large;
+    }
+    .atmpincontent-body>.atmpininput::placeholder{
+        font-size: large ;
+        letter-spacing:0.3rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top:0%;
+    } 
+    .atmpincolumn{
+        padding-top: 5%;
+        width: 100%;
+        margin-left:0%;
+    }
+}

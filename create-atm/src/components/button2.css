@@ -1,0 +1,18 @@
+.btn2{
+width: 130px;
+padding: 5px 20px;
+margin-right: 10px;
+border-radius: 10px;
+color: white;
+font-weight: 500;
+opacity: 1;
+}
+.disable{
+    opacity: 0.5;
+    width: 130px;
+padding: 5px 20px;
+margin-right: 10px;
+border-radius: 10px;
+color: white;
+font-weight: 500;
+}

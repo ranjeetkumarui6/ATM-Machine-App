@@ -1,0 +1,71 @@
+.update-pin-container{
+    padding-top: 16%;
+    width: 35%;
+    margin: 0 auto;
+
+}
+
+.update-pin-heading{
+    color: red;
+    font-size: 40px;
+    font-weight: 800;
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: 2px underline double;
+}
+.password-container{
+    padding-top: 8%;
+}
+.password-container>label{
+    color: gold;
+    font-size: large;
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+.password-container>.update-password{
+    width: 100%;
+    background-color: white;
+    border-radius: 0%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    font-size: xx-large;
+}
+.password-pin-button{
+    padding-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+@media screen and (min-width:890px) and (max-width:1225px) {
+    .update-pin-container{
+        width: 50%;
+    padding-top: 20%;
+    }
+   
+}
+@media screen and (min-width:677px) and (max-width:889px) {
+    .update-pin-container{
+        width: 70%;
+        padding-top: 20%;
+    
+    }
+}
+
+@media screen and (max-width:676px) {
+    .update-pin-container{
+        padding-top: 42%;
+        width: 80%;
+        margin: 0 auto;
+    
+    }
+    .update-pin-heading{
+        color: red;
+        font-size: 30px;
+        font-weight: 800;
+        width: 100%;
+        margin: 0 auto;
+        text-decoration: 2px underline double;
+    }
+}

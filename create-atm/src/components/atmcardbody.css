@@ -1,0 +1,392 @@
+#root{
+    background-color: rgb(29 29 255);
+
+    height: 100%;
+    padding-top: 0rem;
+    box-sizing: border-box;
+}
+.check-balance>.balance{
+    font-size: 1.5rem;
+}
+.header-container{
+    padding-top: 2%;
+    width: 70%;
+    margin: 0 auto;
+
+}
+.header-left{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 7rem;
+    margin-left: 0%;
+}
+.customer-logo{
+    justify-content: flex-start;
+    display: flex;
+    width: 50%;
+}
+.header-right{
+    color: black;
+    width: 36% !important;
+    justify-content: center;
+    align-items: center;
+}
+.header-right>.sp1{
+    color: white;
+    display: block;
+    font-size: x-large;
+    font-weight: 700;
+}
+.header-right>.sp2{
+    color: white;
+    display: block;
+    font-size: large;
+    font-weight: 600;
+}
+.header-right>.sp3{
+    color: rgb(246, 20, 20);
+    display: block;
+    font-size: x-large;
+    font-weight: 700;
+}
+.header-right>.sp4{
+    color: gold;
+    display: block;
+    font-size: medium;
+    font-weight: 500;
+}
+.button-right{
+    width: 50%;
+    margin-right: 0%;    
+}
+.button-right>.btn-right-l{
+    background-color: rgb(221, 0, 0);
+    padding:5px 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: silver;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    display: block;
+    margin-left: auto;
+    border: none;
+    box-shadow: 0 0 10px rgb(52, 75, 75);
+    text-shadow: -1px -1px 3px gainsboro;
+    font-family: sans-serif;
+    width: 150px;
+}
+.button-right>.btn-right-w{
+    background-color: rgb(19, 97, 5);
+    padding:5px 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: block;
+    color: silver;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgb(52,75,75);
+    text-shadow: -1px -1px 3px gainsboro;
+    font-family: sans-serif;
+    margin-left: auto;
+    width: 150px;
+}
+.balance{
+    display: none;
+}
+.check-balance{
+
+    width: 100%;
+    height: 68px;
+    margin: 0 auto;
+    text-align: center;
+}
+.check-balance>.balance-button{
+    justify-content: center;
+    width: 200px;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 10px;
+    margin: 0rem auto;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.atm-pic-container{
+    width: 400px;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+.atm-pic-container>.atm-pic{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.atm-pic-container>.atm-pic-content-1,.atm-pic-content-2,.atm-pic-content-3,.atm-pic-content-4{
+    position: absolute;
+    top: 0%;
+    color: red;
+}
+.atm-pic-container>.atm-pic-content-1{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top: 5px;
+    left: 20px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    text-shadow: 3px 4px 4px rgb(68, 67, 67);
+}
+.atm-pic-container>.atm-pic-content-3{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 55%;
+    left: 20px;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    padding-top: 0%;
+    text-shadow: 3px 4px 4px rgb(68, 67, 67);
+}
+.atm-pic-container>.atm-pic-content-4{
+    position: absolute;
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0rem;
+   display: flex;
+    padding-top: 0%;
+    top: 75%;left: 30%;
+    width: 55%;
+    padding-left: 15%;
+    text-shadow: 3px 4px 4px rgb(68, 67, 67);
+}
+.atm-pic-container>.atm-pic-content-4>.valid{
+   display: inline-block;
+   width: 30%;
+   margin-top: 0%;
+   margin-left: 0.5rem;
+   margin-right: 0%;
+   padding-right: 0%;
+}
+
+.atm-pic-container>.atm-pic-content-4>.exp{
+    /* background-color: rgb(243, 185, 9); */
+width: 100%;
+    font-size: 27px;
+    color: black;
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 3px;
+    
+}
+.atm-pic-container>.atm-pic-content-2{
+    position: absolute;
+    color: rgb(198, 5, 5);
+    font-size: 47px;
+    font-weight: 700;
+
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    left: 51%;
+    font-family: sans-serif;
+    font-style: italic;
+    top: 30%;
+    text-shadow: 3px 4px 4px rgb(68, 67, 67);
+}
+.update-pin{
+    margin-top: 1%;
+    font-size: x-large;
+    color: white;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+
+.atm-pic-container{
+    width: 300px;
+}
+.atm-pic-container>.atm-pic{
+    width: 300px;
+}
+.atm-pic-container>.atm-pic-content-1{
+
+    font-size: 1.2rem;
+}
+.atm-pic-container>.atm-pic-content-2{
+    font-size: 1.5rem;
+}
+.atm-pic-container>.atm-pic-content-3{
+    font-size: 1.5rem;
+}
+.atm-pic-container>.atm-pic-content-4{
+    font-size: 16px;
+}
+.atm-pic-container>.atm-pic-content-4>.valid{
+    width: 200px;
+
+}
+.atm-pic-container>.atm-pic-content-4>.exp{
+    font-size: 16px;
+    width: 200px;
+}
+.header-right>.sp1{
+    font-size: 1rem;
+   } 
+   
+   .header-right{
+    color: black;
+    width: 50% !important;
+    padding-top: 3%;
+    text-align: left;
+}
+.button-right>.btn-right-l{
+    width: 120px;
+    border-radius: 5px;
+    font-size: large;
+   }  
+   .button-right>.btn-right-w{
+    width: 120px;
+    font-size: large;
+    border-radius: 5px;
+   }
+}
+@media screen and (max-width:400px) {
+    .atm-pic-container{
+        width: 300px;
+    }
+    .atm-pic-container>.atm-pic{
+        width: 300px;
+    }
+    .atm-pic-container>.atm-pic-content-1{
+        top: 1rem;
+        left: 4rem;
+        font-size: 1.2rem;
+    }
+    .atm-pic-container>.atm-pic-content-2{
+        top: 4rem;
+        font-size: 1.5rem;
+    }
+    .atm-pic-container>.atm-pic-content-3{
+        left: 4rem;
+        font-size: 1.5rem;
+    }
+    .check-balance>.balance{
+        font-size: 3rem;
+    }
+    .check-balance{
+        height: 3rem;
+        margin-bottom: 2rem;
+    }
+    .atm-pic-container>.atm-pic-content-4>.valid{
+        font-size: 0.8rem;
+        width: 100px;
+    }
+    .atm-pic-container>.atm-pic-content-4>.exp{
+        font-size: 1rem;
+    }
+    .atm-pic-container>.atm-pic-content-4{
+       
+        font-size: 0.9rem;
+    }
+    .check-balance>.balance{
+        font-size: 1.5rem;
+    }
+    .check-balance>.balance-button{
+        justify-content: center;
+        width: 200px;
+        background-color: rgb(154, 111, 4);
+        color: white;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 4px 0px;
+        font-size: medium;
+        font-weight: 600;
+    }
+    .header-container{
+        padding-top: 2%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .atm-pic-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+    }
+    .atm-pic-container>.atm-pic{
+        width: 270px;
+        margin: 0 auto;
+
+    }
+    
+    .check-balance{
+        padding-top: 3%;
+        width: 100%;
+    }
+    
+    .header-right{
+        color: black;
+        width: 100% !important;
+        margin: 0 auto;
+        padding-top: 3%;
+        text-align: center;
+    }
+    .logo{
+        color: white;
+        height: 80px;
+        margin: 0 auto;
+        backdrop-filter: filter 10px;;
+        }
+    .customer-logo{
+        width: 100%;
+    }
+    .button-right{
+        padding-top: 2%;
+        align-items: center;
+        display: flex;
+        width: 60%;
+        border: none;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    
+   
+    .header-left{
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .header-right>.sp1{
+        font-size: 1rem;
+       } 
+       .button-right{
+        width: 70%;
+       } 
+       .button-right>.btn-right-l{
+        width: 110px;
+        border-radius: 5px;
+        font-size: medium;
+       }  
+       .button-right>.btn-right-w{
+        width: 110px;
+        font-size: medium;
+        border-radius: 5px;
+       }
+}
+

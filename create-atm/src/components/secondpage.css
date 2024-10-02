@@ -1,0 +1,406 @@
+#root{
+    background-color: rgb(29 29 255);
+
+    height: 100%;
+    padding-top: 0rem;
+    box-sizing: border-box;
+}
+.below{
+    margin-top: 1rem;
+}
+.column2{
+    background-color: rgb(42, 47, 51);
+    width: 50%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 10px 30px 30px 30px;
+   
+}
+.row2{
+    padding: 2rem;
+}
+.column3{
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+.column3{
+    margin-top: 0.5rem;
+}
+
+.row2{
+    height: 100vh;
+}
+/* .input1>.card{
+    width: 48%;
+    height: 50px;
+    padding: 0%;
+}
+
+.input1>.one{
+    margin-right: 4%;
+}
+.input1>label{
+    display: block;
+}
+.input1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rebeccapurple;
+} */
+.input1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+} 
+.card1{
+    width: 50%;
+    background-color: rgb(42, 47, 51);
+}
+.card2{
+    width: 50%;
+    background-color: rgb(42, 47, 51);
+}
+.card2>.card{
+    width: 100%;
+    border-radius: 0%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+
+    
+}
+.label{
+    background-color: rgb(42, 47, 51);
+    border: none;
+    color: rgb(224, 169, 30);
+    border-radius: 0%;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0%;
+    padding-top: 3%;
+    padding-bottom: 0.2rem;
+}
+.card1>.input-left{
+    width: 96%;
+    border-radius: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: large;
+    background-color: white;
+    border: none;
+}
+
+.blank{
+    background-color: black;
+    position: relative;
+    left: -5%;
+    width: 110%;
+    margin-top: 4%;
+    height: 3rem;
+}
+
+.column3>.button31{
+        background-color: rgb(30,133,25);
+        width: 40%;
+        justify-content: space-between;
+        font-size: large;
+        border-radius: 10px;
+        padding: 5px;
+        height: 15%;
+
+        font-weight: 600;
+        color: silver;
+        
+    }
+    .column3>.button32{
+        background-color: red;
+        width: 40%;
+        padding: 5px;
+
+        justify-content: space-between;
+        font-size: large;
+        border-radius: 10px;
+        font-weight: 600;
+        height: 15%;
+        color: silver;
+    }
+    @media screen and (max-width:576px) {
+        .column2{
+            background-color: rgb(42, 47, 51);
+            height: 190px;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            padding: 10px 10px 20px 10px;
+           
+        }
+        .column2{
+            margin-top: 4%;
+        }
+        .input1{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        } 
+        .card1{
+            width: 50%;
+            background-color: rgb(42, 47, 51);
+        }
+        .card2{
+            width: 50%;
+            background-color: rgb(42, 47, 51);
+
+        }
+        .card2>.card{
+            width: 100%;
+            border-radius: 0%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-radius: 2rem;
+            font-size: small;
+        
+            
+        }
+        .label{
+            background-color: rgb(42, 47, 51);
+            border: none;
+            color: rgb(248, 188, 38);
+            border-radius: 0%;
+            font-size: 0.7em;
+            font-weight: 500;
+        }
+        .card1>.input-left{
+            width: 96%;
+            border-radius: 2rem;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            background-color: white;
+            border: none;
+            font-size: small;
+        }
+        .blank{
+            background-color: black;
+            position: relative;
+            left: 0%;
+            width: 100%;
+            margin-top: 4%;
+            height: 2.5rem;
+        }
+        .card1>input::placeholder{
+            font-size: small;
+            font-weight: 400;
+        }
+     input::placeholder{
+            font-size: small;
+            font-weight: 400;
+        }
+                        
+        .column3{
+            width: 90%;
+            margin-left: 4%;
+            border-radius: 20px;
+            padding: 20px 30px 30px 30px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: left;
+            justify-content: space-between;
+           
+        }
+        .column3{
+            margin-top: 1%;
+        }
+        
+        .column3>.button31{
+            margin-top: 2%;
+            background-color: rgb(30,133,25);
+            width: 48%;
+            justify-content: space-between;
+            font-size: medium;
+            border-radius: 10px;
+            padding: 5px;
+            height: 15%;
+    
+            font-weight: 600;
+            color: silver;
+            
+        }
+        .column3>.button32{
+            margin-top: 2%;
+            background-color: red;
+            width: 48%;
+            padding: 5px;
+    
+            justify-content: space-between;
+            font-size: medium;
+            border-radius: 10px;
+            font-weight: 600;
+            height: 15%;
+            color: silver;
+        }
+    }
+    @media screen and (min-width:577px)and (max-width:900px) {
+        .column2{
+            background-color: rgb(42, 47, 51);
+            height: 210px;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            padding: 5px 30px 10px 30px;
+           
+        }
+        .column2{
+            margin-bottom: 1rem;
+        }
+        .input1{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        } 
+        .card1{
+            width: 50%;
+            background-color: rgb(42, 47, 51);
+        }
+        .card2{
+            width: 50%;
+            background-color: rgb(42, 47, 51);
+        }
+        .card2>.card{
+            width: 100%;
+            border-radius: 0%;
+            padding-top: 1px;
+            padding-bottom: 1.22px;
+        
+            font-size: medium;
+            
+        }
+        .label{
+            background-color: rgb(42, 47, 51);
+            border: none;
+            color: rgb(248, 188, 38);
+            border-radius: 0%;
+            font-size: 1em;
+            font-weight: 500;
+        }
+        .card1>.input-left{
+            width: 96%;
+            border-radius: 0%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            background-color: white;
+            border: none;
+            font-size: medium;
+        }
+        .blank{
+            background-color: black;
+            position: relative;
+            left: -6%;
+            width: 112%;
+            margin-top: 4%;
+            height: 2.5rem;
+        }
+        .card1>input::placeholder{
+            font-size: medium;
+            font-weight: 400;
+        }
+        .card2>input::placeholder{
+            font-size: medium;
+            font-weight: 400;
+        }
+        .column3{
+            width: 60%;
+            margin-left: 20%;
+            border-radius: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: left;
+            justify-content: space-between;
+           
+        }
+        
+        
+        .column3>.button31{
+            background-color: rgb(30,133,25);
+            width: 50%;
+            justify-content: space-between;
+            font-size: medium;
+            border-radius: 10px;
+            height: 15%;
+    
+            font-weight: 600;
+            color: silver;
+            
+        }
+        .column3>.button32{
+            background-color: red;
+            width: 50%;
+            padding: 5px;
+    
+            justify-content: space-between;
+            font-size: medium;
+            border-radius: 10px;
+            font-weight: 600;
+            height: 15%;
+            color: silver;
+        }
+    }
+    @media screen and (min-width:901px)and(max-width:1100px) {
+        .column3{
+            height: 310px;
+            width: 45%;
+            margin-left: 27%;
+            border-radius: 20px;
+            padding: 20px 30px 30px 30px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: left;
+            justify-content: space-between;
+           
+        }
+        .column3{
+            margin-top: 1%;
+        }
+        
+        .column3>.button31{
+            margin-top: 2%;
+            background-color: rgb(30,133,25);
+            width: 50%;
+            justify-content: space-between;
+            font-size: medium;
+            border-radius: 10px;
+            padding: 5px;
+            height: 15%;
+    
+            font-weight: 600;
+            color: silver;
+            
+        }
+        .column3>.button32{
+            margin-top: 2%;
+            background-color: red;
+            width: 50%;
+            padding: 5px;
+    
+            justify-content: space-between;
+            font-size: medium;
+            border-radius: 10px;
+            font-weight: 600;
+            height: 15%;
+            color: silver;
+        }
+      
+    }
+    input::placeholder{
+        font-weight: 500;
+    }
+ 

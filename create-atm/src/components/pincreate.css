@@ -1,0 +1,64 @@
+.pincreate-container {
+    padding-top: 15%;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.pincreate-para {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+
+.pincreate-button {
+    text-align: center;
+}
+
+.pincreate-logo>.check {
+    color: rgb(11, 143, 11);
+    font-size: 7rem;
+}
+
+.pincreate-logo {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 8%;
+
+
+}
+
+@media screen and (min-width:790px) and (max-width:1125px) {
+    .pincreate-container {
+        width: 50%;
+        padding-top: 20%;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:789px) {
+    .pincreate-container {
+        width: 70%;
+        padding-top: 26%;
+
+    }
+}
+
+@media screen and (max-width:576px) {
+    .pincreate-container {
+        padding-top: 30%;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .pincreate-para {
+        color: white;
+        width: 100%;
+        margin: 0 auto;
+        font-size: medium;
+        font-weight: 500;
+        padding-bottom: 3%;
+    }
+}
